@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- ===========================================
+         CONFIGURACIÓN GENERAL
+    ============================================ -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Dashboard Ejecutivo MARN | Lote 2
+    </title>
+
+    <meta
+        name="description"
+        content="Dashboard ejecutivo del proyecto DAP El Salvador - Lote 2">
+
+    <!-- ===========================================
+         ESTILOS
+    ============================================ -->
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+<!-- ==================================================
+     HEADER
+=================================================== -->
+
+<header id="encabezado">
+
+    <div class="logos">
+
+        <img src="assets/logo_marn.png" alt="Logo MARN">
+
+        <img src="assets/logo_icontec.png" alt="Logo ICONTENC">
+
+    </div>
+
+    <div class="titulo-proyecto">
+
+        <h1>
+            Programa de Capacitación en Etiquetado Ambiental Tipo III
+            y Declaraciones Ambientales de Producto
+        </h1>
+
+        <h2>
+            Req. No. 124-2026 | Lote 2
+        </h2>
+
+        <p id="fechaActualizacion">
+            Cargando información...
+        </p>
+
+    </div>
+
+</header>
+
+<!-- ==================================================
+     BARRA DE ACCIONES
+=================================================== -->
+
+<section id="barraAcciones">
+
+    <button onclick="generarInformeEjecutivo()">
+        📄 Informe Ejecutivo PDF
+    </button>
+
+    <button onclick="generarInformeTecnico()">
+        📑 Informe Técnico PDF
+    </button>
+
+    <button onclick="capturarDashboardPDF()">
+        🖼 Exportar Dashboard PDF
+    </button>
+
+</section>
+
+<!-- ==================================================
+     KPIs
+=================================================== -->
+
+<section id="kpis">
+
+    <div class="kpi-card">
+        <h3>Avance General</h3>
+        <div id="kpiAvanceGeneral">0%</div>
+    </div>
+
+    <div class="kpi-card">
+        <h3>Entregables</h3>
+        <div id="kpiEntregables">0 / 0</div>
+    </div>
+
+    <div class="kpi-card">
+        <h3>Riesgos Altos</h3>
+        <div id="kpiRiesgos">0</div>
+    </div>
+
+    <div class="kpi-card">
+        <h3>Días al Cierre</h3>
+        <div id="kpiDias">0</div>
+    </div>
+
+</section>
+
+<!-- ==================================================
+     RESUMEN EJECUTIVO
+=================================================== -->
+
+<section class="panel">
+
+    <h2>Resumen Ejecutivo</h2>
+
+    <div id="resumenEjecutivo">
+
+        <!-- Dashboard.js llena este espacio -->
+
+    </div>
+
+</section>
+
+<!-- ==================================================
+     AVANCE POR FASES
+=================================================== -->
+
+<section class="panel">
+
+    <h2>Avance por Fases</h2>
+
+    <div id="fasesContainer">
+
+        <!-- Dashboard.js -->
+
+    </div>
+
+</section>
+
+<!-- ==================================================
+     GANTT
+=================================================== -->
+
+<section class="panel">
+
+    <h2>Cronograma Semanal</h2>
+
+    <div id="ganttContainer">
+
+        <!-- Gantt.js -->
+
+    </div>
+
+</section>
+
+<!-- ==================================================
+     ENTREGABLES
+=================================================== -->
+
+<section class="panel">
+
+    <h2>Entregables</h2>
+
+    <table id="tablaEntregables">
+
+        <thead>
+
+            <tr>
+                <th>ID</th>
+                <th>Entregable</th>
+                <th>Fase</th>
+                <th>Fecha Objetivo</th>
+                <th>Estado</th>
+                <th>Avance</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <!-- Dashboard.js -->
+
+        </tbody>
+
+    </table>
+
+</section>
+
+<!-- ==================================================
+     CASO PILOTO CAFÉ
+=================================================== -->
+
+<section class="panel">
+
+    <h2>Caso Piloto Café</h2>
+
+    <div id="casoCafeContainer">
+
+        <!-- Dashboard.js -->
+
+    </div>
+
+</section>
+
+<!-- ==================================================
+     CAPACITACIÓN
+=================================================== -->
+
+<section class="panel">
+
+    <h2>Capacitación</h2>
+
+    <div class="capacitacion-kpi">
+
+        <div>
+
+            <strong>Horas Meta</strong>
+
+            <div id="horasMeta">
+                0
+            </div>
+
+        </div>
+
+        <div>
+
+            <strong>Horas Ejecutadas</strong>
+
+            <div id="horasEjecutadas">
+                0
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="barra-contenedor">
+
+        <div
+            class="barra-avance"
+            id="barraCapacitacion">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==================================================
+     RIESGOS
+=================================================== -->
+
+<section class="panel">
+
+    <h2>Riesgos</h2>
+
+    <table id="tablaRiesgos">
+
+        <thead>
+
+            <tr>
+                <th>ID</th>
+                <th>Riesgo</th>
+                <th>Probabilidad</th>
+                <th>Impacto</th>
+                <th>Nivel</th>
+                <th>Mitigación</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <!-- Dashboard.js -->
+
+        </tbody>
+
+    </table>
+
+</section>
+
+<!-- ==================================================
+     DECISIONES PENDIENTES
+=================================================== -->
+
+<section class="panel">
+
+    <h2>Decisiones Pendientes</h2>
+
+    <table id="tablaDecisiones">
+
+        <thead>
+
+            <tr>
+                <th>ID</th>
+                <th>Decisión</th>
+                <th>Responsable</th>
+                <th>Estado</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <!-- Dashboard.js -->
+
+        </tbody>
+
+    </table>
+
+</section>
+
+<!-- ==================================================
+     HITOS
+=================================================== -->
+
+<section class="panel">
+
+    <h2>Próximos Hitos</h2>
+
+    <div id="hitosContainer">
+
+        <!-- Dashboard.js -->
+
+    </div>
+
+</section>
+
+<!-- ==================================================
+     RUTA CRÍTICA
+=================================================== -->
+
+<section class="panel">
+
+    <h2>Ruta Crítica</h2>
+
+    <div id="rutaCriticaContainer">
+
+        <!-- Dashboard.js -->
+
+    </div>
+
+</section>
+
+<!-- ==================================================
+     FOOTER
+=================================================== -->
+
+<footer>
+
+    <p>
+        Dashboard Ejecutivo
+    </p>
+
+    <p>
+        Ministerio de Medio Ambiente y Recursos Naturales (MARN)
+    </p>
+
+    <p>
+        Última actualización:
+        <span id="fechaPie">
+            --
+        </span>
+    </p>
+
+</footer>
+
+<!-- ==================================================
+     LIBRERÍAS EXTERNAS
+=================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<!-- ==================================================
+     CHART.JS (PARA KPIs FUTUROS)
+=================================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- ==================================================
+     MÓDULOS DEL DASHBOARD
+=================================================== -->
+
+<script src="js/dashboard.js"></script>
+
+<script src="js/gantt.js"></script>
+
+<script src="js/pdf.js"></script>
+
+</body>
+
+</html>

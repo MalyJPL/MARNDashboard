@@ -1,0 +1,356 @@
+{
+  "_comentario": "Proyecto MARN - Req. 124-2026 Lote 2",
+
+  "proyecto": {
+    "nombre": "Programa de Capacitación en Etiquetado Ambiental Tipo III y Declaraciones Ambientales de Producto",
+    "cliente": "Ministerio de Medio Ambiente y Recursos Naturales (MARN)",
+    "contrato": "Req. No. 124-2026",
+    "lote": "Lote 2",
+    "fechaInicio": "2026-08-19",
+    "fechaCierreContractual": "2026-12-01",
+    "fechaBuffer": "2026-12-08",
+    "avanceGeneral": 10,
+    "horasCapacitacionMeta": 10,
+    "horasCapacitacionEjecutadas": 0
+  },
+
+  "kpis": {
+    "entregablesTotales": 5,
+    "entregablesCompletados": 0,
+    "riesgosAltos": 2,
+    "riesgosMedios": 3
+  },
+
+  "fases": [
+    {
+      "id": "F1",
+      "nombre": "Fase I - Fundamentación y Bases Metodológicas",
+      "avance": 20
+    },
+    {
+      "id": "F2",
+      "nombre": "Fase II - Desarrollo de Instrumentos Técnicos",
+      "avance": 0
+    },
+    {
+      "id": "F3",
+      "nombre": "Fase III - Caso Piloto y Modelización",
+      "avance": 0
+    },
+    {
+      "id": "F4",
+      "nombre": "Fase IV - Socialización y Cierre",
+      "avance": 0
+    }
+  ],
+
+  "entregables": [
+    {
+      "id": "E1",
+      "nombre": "I.1 Plan de Trabajo y Ruta Metodológica",
+      "fase": "F1",
+      "fechaObjetivo": "2026-08-25",
+      "avance": 50,
+      "estado": "En curso"
+    },
+    {
+      "id": "E2",
+      "nombre": "I.2 Capacitación Integral ACV, DAP y Normas ISO",
+      "fase": "F1",
+      "fechaObjetivo": "2026-09-30",
+      "avance": 0,
+      "estado": "Pendiente"
+    },
+    {
+      "id": "E3",
+      "nombre": "II. Instrumentos Técnicos del Programa",
+      "fase": "F2",
+      "fechaObjetivo": "2026-10-10",
+      "avance": 0,
+      "estado": "Pendiente"
+    },
+    {
+      "id": "E4",
+      "nombre": "III. Piloto Café y validación",
+      "fase": "F3",
+      "fechaObjetivo": "2026-10-29",
+      "avance": 0,
+      "estado": "Pendiente"
+    },
+    {
+      "id": "E5",
+      "nombre": "IV.Socialización",
+      "fase": "F4",
+      "fechaObjetivo": "2026-12-01",
+      "avance": 0,
+      "estado": "Pendiente"
+    }
+  ],
+
+ "cronograma": [
+
+  {
+    "id":"G1",
+    "actividad":"1-I Plan de Trabajo",
+    "fase":"F1",
+    "inicio":"2026-08-17",
+    "fin":"2026-08-31",
+    "rutaCritica":true
+  },
+
+  {
+    "id":"G2",
+    "actividad":"2-I Desarrollo Materiales Capacitación",
+    "fase":"F1",
+    "inicio":"2026-08-17",
+    "fin":"2026-09-21",
+    "rutaCritica":true
+  },
+
+  {
+    "id":"G3",
+    "actividad":"3-I Ejecución Curso ACV-DAP",
+    "fase":"F1",
+    "inicio":"2026-09-21",
+    "fin":"2026-09-28",
+    "rutaCritica":true
+  },
+
+  {
+    "id":"G4",
+    "actividad":"4-II Co-creación Manual Programa y RCP",
+    "fase":"F2",
+    "inicio":"2026-08-31",
+    "fin":"2026-09-14",
+    "rutaCritica":true
+  },
+
+  {
+    "id":"G5",
+    "actividad":"5-III Levantamiento Datos PEF Café",
+    "fase":"F3",
+    "inicio":"2026-08-24",
+    "fin":"2026-09-14",
+    "rutaCritica":true
+  },
+
+  {
+    "id":"G6",
+    "actividad":"6-III Modelación ACV Café",
+    "fase":"F3",
+    "inicio":"2026-09-07",
+    "fin":"2026-09-21",
+    "rutaCritica":true
+  },
+
+    {
+    "id":"G7",
+    "actividad":"7-III Preparación Taller openLCA",
+    "fase":"F3",
+    "inicio":"2026-09-17",
+    "fin":"2026-09-21",
+    "rutaCritica":true
+  },
+
+  {
+    "id":"G8",
+    "actividad":"8-III Taller openLCA y Validación",
+    "fase":"F3",
+    "inicio":"2026-09-21",
+    "fin":"2026-09-28",
+    "rutaCritica":true
+  },
+
+  {
+    "id":"G9",
+    "actividad":"9-III Revisión Técnica y Ajustes Finales del Programa",
+    "fase":"F3",
+    "inicio":"2026-09-28",
+    "fin":"2026-10-12",
+    "rutaCritica":true
+  },
+
+  {
+    "id":"G10",
+    "actividad":"10-IV Jornada de Socialización",
+    "fase":"F4",
+    "inicio":"2026-10-26",
+    "fin":"2026-10-29",
+    "rutaCritica":true
+  },
+
+  {
+    "id":"G11",
+    "actividad":"11-IV Informe Final",
+    "fase":"F4",
+    "inicio":"2026-10-26",
+    "fin":"2026-11-09",
+    "rutaCritica":true
+  },
+
+  {
+    "id":"G12",
+    "actividad":"12-IV Buffer de Gestión",
+    "fase":"F4",
+    "inicio":"2026-11-09",
+    "fin":"2026-12-08",
+    "rutaCritica":false
+  }
+
+],
+
+  "casoPilotoCafe": {
+    "avanceGeneral": 0,
+
+    "actividades": [
+      {
+        "nombre": "Alcance y Unidad Funcional",
+        "avance": 0,
+        "estado": "Pendiente"
+      },
+      {
+        "nombre": "Inventario",
+        "avance": 0,
+        "estado": "Pendiente"
+      },
+      {
+        "nombre": "Modelación",
+        "avance": 0,
+        "estado": "Pendiente"
+      },
+      {
+        "nombre": "Sensibilidad",
+        "avance": 0,
+        "estado": "Pendiente"
+      },
+      {
+        "nombre": "Informe",
+        "avance": 0,
+        "estado": "Pendiente"
+      }
+    ]
+  },
+
+  "riesgos": [
+    {
+      "id": "R1",
+      "riesgo": "Designación tardía de contraparte técnica MARN",
+      "probabilidad": "Media",
+      "impacto": "Alto",
+      "nivel": "Alto",
+      "mitigacion": "Seguimiento semanal y documentación de decisiones"
+    },
+    {
+      "id": "R2",
+      "riesgo": "Falta de datos para el caso piloto de café",
+      "probabilidad": "Alta",
+      "impacto": "Alto",
+      "nivel": "Alto",
+      "mitigacion": "Uso de fuentes secundarias y documentación de supuestos"
+    },
+    {
+      "id": "R3",
+      "riesgo": "Retrasos en revisión de entregables",
+      "probabilidad": "Media",
+      "impacto": "Medio",
+      "nivel": "Medio",
+      "mitigacion": "Programación anticipada de revisiones"
+    }
+  ],
+
+  "decisionesPendientes": [
+    {
+      "id": "D1",
+      "decision": "Designación de contraparte técnica",
+      "responsable": "MARN",
+      "estado": "Pendiente"
+    },
+    {
+      "id": "D2",
+      "decision": "Confirmación de participantes",
+      "responsable": "MARN",
+      "estado": "Pendiente"
+    },
+    {
+      "id": "D3",
+      "decision": "Confirmación de alcance definitivo del caso piloto",
+      "responsable": "MARN",
+      "estado": "Pendiente"
+    }
+  ],
+
+  "hitos":[
+
+  {
+    "nombre":"Aprobación Plan de Trabajo",
+    "fecha":"2026-08-28"
+  },
+
+  {
+    "nombre":"Finalización Desarrollo Materiales",
+    "fecha":"2026-09-21"
+  },
+
+  {
+    "nombre":"Ejecución Curso ACV-DAP",
+    "fecha":"2026-09-28"
+  },
+
+  {
+    "nombre":"Finalización Co-creación Manual y RCP Café",
+    "fecha":"2026-09-14"
+  },
+
+  {
+    "nombre":"Finalización Taller openLCA",
+    "fecha":"2026-09-28"
+  },
+
+  {
+    "nombre":"Cierre Revisión Técnica",
+    "fecha":"2026-10-12"
+  },
+
+  {
+    "nombre":"Jornada de Socialización",
+    "fecha":"2026-10-29"
+  },
+
+  {
+    "nombre":"Entrega Informe Final",
+    "fecha":"2026-11-09"
+  },
+
+  {
+    "nombre":"Cierre Buffer",
+    "fecha":"2026-12-08"
+  }
+
+],
+
+"rutaCritica":[
+
+  "1-I Plan de Trabajo",
+
+  "2-I Desarrollo Materiales Capacitación",
+
+  "5-III Levantamiento Datos PEF Café",
+
+  "6-III Modelación ACV Café",
+
+  "7-III Preparación Taller openLCA",
+  
+  "8-III Co-creación Manual Programa y RCP Cafe",
+
+  "3-I Ejecución Curso ACV-DAP",
+
+  "4-II  Taller openLCA y Validación",
+
+  "9-III Revisión Técnica y Ajustes Finales del Programa",
+
+  "10-IV Jornada de Socialización",
+
+  "11-IV Informe Final"
+
+]
+}
