@@ -49,7 +49,7 @@
       "id": "E1",
       "nombre": "I.1 Plan de Trabajo y Ruta Metodológica",
       "fase": "F1",
-      "fechaObjetivo": "2026-08-25",
+      "fechaObjetivo": "2026-09-01",
       "avance": 50,
       "estado": "En curso"
     },
@@ -57,7 +57,7 @@
       "id": "E2",
       "nombre": "I.2 Capacitación Integral ACV, DAP y Normas ISO",
       "fase": "F1",
-      "fechaObjetivo": "2026-09-30",
+      "fechaObjetivo": "2026-10-05",
       "avance": 0,
       "estado": "Pendiente"
     },
@@ -94,7 +94,7 @@
     "actividad":"1-I Plan de Trabajo",
     "fase":"F1",
     "inicio":"2026-08-17",
-    "fin":"2026-08-31",
+    "fin":"2026-09-01",
     "rutaCritica":true
   },
 
@@ -103,7 +103,7 @@
     "actividad":"2-I Desarrollo Materiales Capacitación",
     "fase":"F1",
     "inicio":"2026-08-17",
-    "fin":"2026-09-21",
+    "fin":"2026-09-07",
     "rutaCritica":true
   },
 
@@ -111,17 +111,17 @@
     "id":"G3",
     "actividad":"3-I Ejecución Curso ACV-DAP",
     "fase":"F1",
-    "inicio":"2026-09-21",
-    "fin":"2026-09-28",
+    "inicio":"2026-09-28",
+    "fin":"2026-10-05",
     "rutaCritica":true
   },
 
   {
     "id":"G4",
-    "actividad":"4-II Co-creación Manual Programa y RCP",
+    "actividad":"4-II Co-creación Manual Prog y RCP",
     "fase":"F2",
-    "inicio":"2026-08-31",
-    "fin":"2026-09-14",
+    "inicio":"2026-10-12",
+    "fin":"2026-10-15",
     "rutaCritica":true
   },
 
@@ -129,8 +129,8 @@
     "id":"G5",
     "actividad":"5-III Levantamiento Datos PEF Café",
     "fase":"F3",
-    "inicio":"2026-08-24",
-    "fin":"2026-09-14",
+    "inicio":"2026-09-07",
+    "fin":"2026-09-13",
     "rutaCritica":true
   },
 
@@ -138,7 +138,7 @@
     "id":"G6",
     "actividad":"6-III Modelación ACV Café",
     "fase":"F3",
-    "inicio":"2026-09-07",
+    "inicio":"2026-09-14",
     "fin":"2026-09-21",
     "rutaCritica":true
   },
@@ -156,17 +156,17 @@
     "id":"G8",
     "actividad":"8-III Taller openLCA y Validación",
     "fase":"F3",
-    "inicio":"2026-09-21",
-    "fin":"2026-09-28",
+    "inicio":"2026-09-28",
+    "fin":"2026-10-28",
     "rutaCritica":true
   },
 
   {
     "id":"G9",
-    "actividad":"9-III Revisión Técnica y Ajustes Finales del Programa",
+    "actividad":"9-III Revisión Téc, ajustes  fin Prog",
     "fase":"F3",
-    "inicio":"2026-09-28",
-    "fin":"2026-10-12",
+    "inicio":"2026-09-12",
+    "fin":"2026-10-09",
     "rutaCritica":true
   },
 
