@@ -10,7 +10,7 @@
     "fechaCierreContractual": "2026-12-01",
     "fechaBuffer": "2026-12-08",
     "avanceGeneral": 10,
-    "horasCapacitacionMeta": 10,
+    "horasCapacitacionMeta": 40,
     "horasCapacitacionEjecutadas": 0
   },
 
@@ -25,7 +25,7 @@
     {
       "id": "F1",
       "nombre": "Fase I - Fundamentación y Bases Metodológicas",
-      "avance": 20
+      "avance": 30
     },
     {
       "id": "F2",
@@ -50,7 +50,7 @@
       "nombre": "I.1 Plan de Trabajo y Ruta Metodológica",
       "fase": "F1",
       "fechaObjetivo": "2026-09-01",
-      "avance": 50,
+      "avance": 100,
       "estado": "En curso"
     },
     {
@@ -91,7 +91,7 @@
 
   {
     "id":"G1",
-    "actividad":"1-I Plan de Trabajo",
+    "actividad":"I-1. Plan de Trabajo",
     "fase":"F1",
     "inicio":"2026-08-17",
     "fin":"2026-09-01",
@@ -100,7 +100,7 @@
 
   {
     "id":"G2",
-    "actividad":"2-I Desarrollo Materiales Capacitación",
+    "actividad":"I-2.1 Desarrollo Materiales Capacitación",
     "fase":"F1",
     "inicio":"2026-08-17",
     "fin":"2026-09-07",
@@ -109,25 +109,25 @@
 
   {
     "id":"G3",
-    "actividad":"3-I Ejecución Curso ACV-DAP",
+    "actividad":"I-2.2 Ejecución Curso ACV-DAP",
     "fase":"F1",
     "inicio":"2026-09-28",
-    "fin":"2026-10-05",
+    "fin":"2026-10-08",
     "rutaCritica":true
   },
 
   {
     "id":"G4",
-    "actividad":"4-II Co-creación Manual Prog y RCP",
+    "actividad":"II-3. Co-creación Manual Prog y RCP",
     "fase":"F2",
-    "inicio":"2026-10-12",
+    "inicio":"2026-09-09",
     "fin":"2026-10-15",
     "rutaCritica":true
   },
 
   {
     "id":"G5",
-    "actividad":"5-III Levantamiento Datos PEF Café",
+    "actividad":"III-4.2 Levantamiento Datos PEF Café",
     "fase":"F3",
     "inicio":"2026-09-07",
     "fin":"2026-09-13",
@@ -136,7 +136,7 @@
 
   {
     "id":"G6",
-    "actividad":"6-III Modelación ACV Café",
+    "actividad":"III-4.3-4 Modelación ACV Café",
     "fase":"F3",
     "inicio":"2026-09-14",
     "fin":"2026-09-21",
@@ -145,7 +145,7 @@
 
     {
     "id":"G7",
-    "actividad":"7-III Preparación Taller openLCA",
+    "actividad":"III-4.5 Preparación Taller openLCA",
     "fase":"F3",
     "inicio":"2026-09-17",
     "fin":"2026-09-21",
@@ -154,25 +154,25 @@
 
   {
     "id":"G8",
-    "actividad":"8-III Taller openLCA y Validación",
+    "actividad":"III Taller openLCA y Validación",
     "fase":"F3",
-    "inicio":"2026-09-28",
-    "fin":"2026-10-28",
+    "inicio":"2026-10-08",
+    "fin":"2026-10-08",
     "rutaCritica":true
   },
 
   {
     "id":"G9",
-    "actividad":"9-III Revisión Téc, ajustes  fin Prog",
+    "actividad":"III-4.7-9 Revisión Téc, ajustes  fin Prog",
     "fase":"F3",
     "inicio":"2026-09-12",
-    "fin":"2026-10-09",
+    "fin":"2026-10-16",
     "rutaCritica":true
   },
 
   {
     "id":"G10",
-    "actividad":"10-IV Jornada de Socialización",
+    "actividad":"IV-5.3 Jornada de Socialización",
     "fase":"F4",
     "inicio":"2026-10-26",
     "fin":"2026-10-29",
@@ -181,7 +181,7 @@
 
   {
     "id":"G11",
-    "actividad":"11-IV Informe Final",
+    "actividad":"IV-5.5 Informe Final",
     "fase":"F4",
     "inicio":"2026-10-26",
     "fin":"2026-11-09",
@@ -190,7 +190,7 @@
 
   {
     "id":"G12",
-    "actividad":"12-IV Buffer de Gestión",
+    "actividad":"Buffer de Gestión",
     "fase":"F4",
     "inicio":"2026-11-09",
     "fin":"2026-12-08",
@@ -200,12 +200,12 @@
 ],
 
   "casoPilotoCafe": {
-    "avanceGeneral": 0,
+    "avanceGeneral": 10,
 
     "actividades": [
       {
         "nombre": "Alcance y Unidad Funcional",
-        "avance": 0,
+        "avance": 50,
         "estado": "Pendiente"
       },
       {
@@ -263,7 +263,7 @@
       "id": "D1",
       "decision": "Designación de contraparte técnica",
       "responsable": "MARN",
-      "estado": "Pendiente"
+      "estado": "Listo"
     },
     {
       "id": "D2",
@@ -275,7 +275,7 @@
       "id": "D3",
       "decision": "Confirmación de alcance definitivo del caso piloto",
       "responsable": "MARN",
-      "estado": "Pendiente"
+      "estado": "Avance parcial"
     }
   ],
 
@@ -283,12 +283,12 @@
 
   {
     "nombre":"Aprobación Plan de Trabajo",
-    "fecha":"2026-08-28"
+    "fecha":"2026-09-03"
   },
 
   {
     "nombre":"Finalización Desarrollo Materiales",
-    "fecha":"2026-09-21"
+    "fecha":"2026-09-07"
   },
 
   {
@@ -303,12 +303,12 @@
 
   {
     "nombre":"Finalización Taller openLCA",
-    "fecha":"2026-09-28"
+    "fecha":"2026-10-08"
   },
 
   {
     "nombre":"Cierre Revisión Técnica",
-    "fecha":"2026-10-12"
+    "fecha":"2026-10-16"
   },
 
   {
