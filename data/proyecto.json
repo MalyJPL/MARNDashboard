@@ -40,7 +40,7 @@
     {
       "id": "F4",
       "nombre": "Fase IV - Socialización y Cierre",
-      "avance": 0
+      "avance": 10
     }
   ],
 
@@ -51,7 +51,7 @@
       "fase": "F1",
       "fechaObjetivo": "2026-09-01",
       "avance": 100,
-      "estado": "Terminado"
+      "estado": "completado"
     },
     {
       "id": "E2",
@@ -263,7 +263,7 @@
       "id": "D1",
       "decision": "Designación de contraparte técnica",
       "responsable": "MARN",
-      "estado": "Listo"
+      "estado": "completado"
     },
     {
       "id": "D2",
@@ -275,7 +275,7 @@
       "id": "D3",
       "decision": "Confirmación de alcance definitivo del caso piloto",
       "responsable": "MARN",
-      "estado": "Avance parcial"
+      "estado": "En curso"
     }
   ],
 
