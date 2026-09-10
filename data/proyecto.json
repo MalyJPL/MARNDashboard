@@ -16,7 +16,7 @@
 
   "kpis": {
     "entregablesTotales": 5,
-    "entregablesCompletados": 1,
+    "entregablesCompletados": 2,
     "riesgosAltos": 2,
     "riesgosMedios": 3
   },
@@ -30,12 +30,12 @@
     {
       "id": "F2",
       "nombre": "Fase II - Desarrollo de Instrumentos Técnicos",
-      "avance": 0
+      "avance": 10
     },
     {
       "id": "F3",
       "nombre": "Fase III - Caso Piloto y Modelización",
-      "avance": 0
+      "avance": 15
     },
     {
       "id": "F4",
