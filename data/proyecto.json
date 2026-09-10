@@ -9,7 +9,7 @@
     "fechaInicio": "2026-08-19",
     "fechaCierreContractual": "2026-12-01",
     "fechaBuffer": "2026-12-08",
-    "avanceGeneral": 15,
+    "avanceGeneral": 30,
     "horasCapacitacionMeta": 40,
     "horasCapacitacionEjecutadas": 0
   },
@@ -51,31 +51,31 @@
       "fase": "F1",
       "fechaObjetivo": "2026-09-01",
       "avance": 100,
-      "estado": "En curso"
+      "estado": "Terminado"
     },
     {
       "id": "E2",
       "nombre": "I.2 Capacitación Integral ACV, DAP y Normas ISO",
       "fase": "F1",
       "fechaObjetivo": "2026-10-05",
-      "avance": 0,
-      "estado": "Pendiente"
+      "avance": 80,
+      "estado": "En curso"
     },
     {
       "id": "E3",
       "nombre": "II. Instrumentos Técnicos del Programa",
       "fase": "F2",
       "fechaObjetivo": "2026-10-10",
-      "avance": 0,
-      "estado": "Pendiente"
+      "avance": 5,
+      "estado": "En curso"
     },
     {
       "id": "E4",
       "nombre": "III. Piloto Café y validación",
       "fase": "F3",
       "fechaObjetivo": "2026-10-29",
-      "avance": 0,
-      "estado": "Pendiente"
+      "avance": 10,
+      "estado": "En curso"
     },
     {
       "id": "E5",
@@ -206,12 +206,12 @@
       {
         "nombre": "Alcance y Unidad Funcional",
         "avance": 50,
-        "estado": "Pendiente"
+        "estado": "En curso"
       },
       {
         "nombre": "Inventario",
-        "avance": 0,
-        "estado": "Pendiente"
+        "avance": 30,
+        "estado": "En curso"
       },
       {
         "nombre": "Modelación",
