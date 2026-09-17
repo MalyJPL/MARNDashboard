@@ -9,7 +9,7 @@
     "fechaInicio": "2026-08-19",
     "fechaCierreContractual": "2026-12-01",
     "fechaBuffer": "2026-12-08",
-    "avanceGeneral": 30,
+    "avanceGeneral": 35,
     "horasCapacitacionMeta": 40,
     "horasCapacitacionEjecutadas": 0
   },
@@ -25,17 +25,17 @@
     {
       "id": "F1",
       "nombre": "Fase I - Fundamentación y Bases Metodológicas",
-      "avance": 30
+      "avance": 50
     },
     {
       "id": "F2",
       "nombre": "Fase II - Desarrollo de Instrumentos Técnicos",
-      "avance": 10
+      "avance": 20
     },
     {
       "id": "F3",
       "nombre": "Fase III - Caso Piloto y Modelización",
-      "avance": 15
+      "avance": 30
     },
     {
       "id": "F4",
