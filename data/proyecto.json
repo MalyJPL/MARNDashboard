@@ -30,17 +30,17 @@
     {
       "id": "F2",
       "nombre": "Fase II - Desarrollo de Instrumentos Técnicos",
-      "avance": 20
+      "avance": 40
     },
     {
       "id": "F3",
       "nombre": "Fase III - Caso Piloto y Modelización",
-      "avance": 30
+      "avance": 40
     },
     {
       "id": "F4",
       "nombre": "Fase IV - Socialización y Cierre",
-      "avance": 10
+      "avance": 30
     }
   ],
 
@@ -66,7 +66,7 @@
       "nombre": "II. Instrumentos Técnicos del Programa",
       "fase": "F2",
       "fechaObjetivo": "2026-10-10",
-      "avance": 5,
+      "avance": 40,
       "estado": "En curso"
     },
     {
@@ -74,7 +74,7 @@
       "nombre": "III. Piloto Café y validación",
       "fase": "F3",
       "fechaObjetivo": "2026-10-29",
-      "avance": 10,
+      "avance": 30,
       "estado": "En curso"
     },
     {
@@ -82,7 +82,7 @@
       "nombre": "IV.Socialización",
       "fase": "F4",
       "fechaObjetivo": "2026-12-01",
-      "avance": 0,
+      "avance": 30,
       "estado": "Pendiente"
     }
   ],
@@ -200,22 +200,22 @@
 ],
 
   "casoPilotoCafe": {
-    "avanceGeneral": 10,
+    "avanceGeneral": 40,
 
     "actividades": [
       {
         "nombre": "Alcance y Unidad Funcional",
-        "avance": 50,
+        "avance": 80,
         "estado": "En curso"
       },
       {
         "nombre": "Inventario",
-        "avance": 30,
+        "avance": 80,
         "estado": "En curso"
       },
       {
         "nombre": "Modelación",
-        "avance": 0,
+        "avance": 20,
         "estado": "Pendiente"
       },
       {
