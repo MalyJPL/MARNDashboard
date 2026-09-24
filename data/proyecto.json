@@ -57,9 +57,9 @@
       "id": "E2",
       "nombre": "I.2 Capacitación Integral ACV, DAP y Normas ISO",
       "fase": "F1",
-      "fechaObjetivo": "2026-10-05",
+      "fechaObjetivo": "2026-10-09",
       "avance": 80,
-      "estado": "completado"
+      "estado": "En curso"
     },
     {
       "id": "E3",
@@ -269,7 +269,7 @@
       "id": "D2",
       "decision": "Confirmación de participantes",
       "responsable": "MARN",
-      "estado": "Pendiente"
+      "estado": "En curso"
     },
     {
       "id": "D3",
@@ -281,15 +281,6 @@
 
   "hitos":[
 
-  {
-    "nombre":"Aprobación Plan de Trabajo",
-    "fecha":"2026-09-03"
-  },
-
-  {
-    "nombre":"Finalización Desarrollo Materiales",
-    "fecha":"2026-09-07"
-  },
 
   {
     "nombre":"Ejecución Curso ACV-DAP",
@@ -298,12 +289,7 @@
 
   {
     "nombre":"Finalización Co-creación Manual y RCP Café",
-    "fecha":"2026-09-14"
-  },
-
-  {
-    "nombre":"Finalización Taller openLCA",
-    "fecha":"2026-10-08"
+    "fecha":"2026-10-09"
   },
 
   {
