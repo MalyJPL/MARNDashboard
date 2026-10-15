@@ -25,7 +25,7 @@
     {
       "id": "F1",
       "nombre": "Fase I - Fundamentación y Bases Metodológicas",
-      "avance": 50
+      "avance": 100
     },
     {
       "id": "F2",
@@ -58,8 +58,8 @@
       "nombre": "I.2 Capacitación Integral ACV, DAP y Normas ISO",
       "fase": "F1",
       "fechaObjetivo": "2026-10-09",
-      "avance": 80,
-      "estado": "En curso"
+      "avance": 100,
+      "estado": "completado"
     },
     {
       "id": "E3",
@@ -269,13 +269,13 @@
       "id": "D2",
       "decision": "Confirmación de participantes",
       "responsable": "MARN",
-      "estado": "En curso"
+      "estado": "completado"
     },
     {
       "id": "D3",
       "decision": "Confirmación de alcance definitivo del caso piloto",
       "responsable": "MARN",
-      "estado": "En curso"
+      "estado": "completado"
     }
   ],
 
