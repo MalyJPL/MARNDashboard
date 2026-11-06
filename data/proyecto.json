@@ -9,14 +9,14 @@
     "fechaInicio": "2026-08-19",
     "fechaCierreContractual": "2026-12-01",
     "fechaBuffer": "2026-12-08",
-    "avanceGeneral": 50,
+    "avanceGeneral": 90,
     "horasCapacitacionMeta": 40,
     "horasCapacitacionEjecutadas": 0
   },
 
   "kpis": {
     "entregablesTotales": 5,
-    "entregablesCompletados": 2,
+    "entregablesCompletados": 5,
     "riesgosAltos": 2,
     "riesgosMedios": 3
   },
@@ -30,17 +30,17 @@
     {
       "id": "F2",
       "nombre": "Fase II - Desarrollo de Instrumentos Técnicos",
-      "avance": 40
+      "avance": 100
     },
     {
       "id": "F3",
       "nombre": "Fase III - Caso Piloto y Modelización",
-      "avance": 40
+      "avance": 90
     },
     {
       "id": "F4",
       "nombre": "Fase IV - Socialización y Cierre",
-      "avance": 30
+      "avance": 90
     }
   ],
 
@@ -66,24 +66,24 @@
       "nombre": "II. Instrumentos Técnicos del Programa",
       "fase": "F2",
       "fechaObjetivo": "2026-10-10",
-      "avance": 40,
-      "estado": "En curso"
+      "avance": 100,
+      "estado": "completado"
     },
     {
       "id": "E4",
       "nombre": "III. Piloto Café y validación",
       "fase": "F3",
       "fechaObjetivo": "2026-10-29",
-      "avance": 30,
-      "estado": "En curso"
+      "avance": 90,
+      "estado": "completado"
     },
     {
       "id": "E5",
       "nombre": "IV.Socialización",
       "fase": "F4",
       "fechaObjetivo": "2026-12-01",
-      "avance": 30,
-      "estado": "Pendiente"
+      "avance": 90,
+      "estado": "suspendido hasta 2028"
     }
   ],
 
@@ -205,27 +205,27 @@
     "actividades": [
       {
         "nombre": "Alcance y Unidad Funcional",
-        "avance": 80,
-        "estado": "En curso"
+        "avance": 100,
+        "estado": "completado"
       },
       {
         "nombre": "Inventario",
-        "avance": 80,
-        "estado": "En curso"
+        "avance": 100,
+        "estado": "completado"
       },
       {
         "nombre": "Modelación",
-        "avance": 20,
-        "estado": "Pendiente"
+        "avance": 100,
+        "estado": "completado"
       },
       {
         "nombre": "Sensibilidad",
-        "avance": 0,
-        "estado": "Pendiente"
+        "avance": 100,
+        "estado": "completado"
       },
       {
         "nombre": "Informe",
-        "avance": 0,
+        "avance": 80,
         "estado": "Pendiente"
       }
     ]
